@@ -32,7 +32,7 @@ namespace DesafioProjetoHospedagem.Models
                     Console.WriteLine("\nObrigado por me visitar. Seja sempre bem vindo. Volte sempre!\n");
                     break;
                     }
-                    else if(escolha == 2)
+                    else if(escolha == 1)
                     {
                     Menu menuHotel1 = new Menu();
                     menuHotel1.menuInicio();
@@ -44,7 +44,7 @@ namespace DesafioProjetoHospedagem.Models
                     }
                 }
             } 
-            while (escolha != 0 && escolha <= 1);
+            while (escolha != 0 && escolha <= 2);
         }
 
         public void menuHotel1()
