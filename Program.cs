@@ -1,6 +1,12 @@
 ﻿using System.Text;
 using DesafioProjetoHospedagem.Models;
 
+Saudacao saudacao1 = new Saudacao();
+saudacao1.boasVindas1();
+Menu menu1 = new Menu();
+menu1.menuInicio();
+
+/*
 Console.OutputEncoding = Encoding.UTF8;
 
 // Cria os modelos de hóspedes e cadastra na lista de hóspedes
@@ -23,3 +29,4 @@ reserva.CadastrarHospedes(hospedes);
 // Exibe a quantidade de hóspedes e o valor da diária
 Console.WriteLine($"Hóspedes: {reserva.ObterQuantidadeHospedes()}");
 Console.WriteLine($"Valor diária: {reserva.CalcularValorDiaria()}");
+*/
