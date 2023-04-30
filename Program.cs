@@ -1,13 +1,14 @@
 ﻿using System.Text;
 using DesafioProjetoHospedagem.Models;
 
-Saudacao saudacao1 = new Saudacao();
-saudacao1.boasVindas1();
-Menu menu1 = new Menu();
-menu1.menuInicio();
+Console.OutputEncoding = Encoding.UTF8;
+
+MenuInicio menuInicio = new MenuInicio();
+menuInicio.menuInicio();
+
 
 /*
-Console.OutputEncoding = Encoding.UTF8;
+
 
 // Cria os modelos de hóspedes e cadastra na lista de hóspedes
 List<Pessoa> hospedes = new List<Pessoa>();
